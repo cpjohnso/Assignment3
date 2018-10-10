@@ -1,0 +1,44 @@
+
+body {
+margin:80px 80px 100px 100px;
+background-color: #E1F5A9;
+ 
+	
+
+font-family: Times, "Times New Roman", Georgia, serif;
+font-size: 1em;
+font-style: normal;
+font-weight: normal;
+
+color: #0B3B0B;
+line-height: 1; 
+}
+#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#E1F5A9;
+	background:#0B3B0B;
+	padding:20px;
+}
+
+
+
+#content {
+        margin-top: 100px;
+	margin: 20px;
+	padding: 20px;
+	width: 95%;
+	height: 90%;
+	text-align: justify;
+	float: left;
+}
+#line_sep {
+
+ 	display: block;
+	margin-top: 5px;
+	border-bottom: 5px solid #0B3B0B;
+
+
+}
