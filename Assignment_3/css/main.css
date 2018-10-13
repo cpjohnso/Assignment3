@@ -116,22 +116,22 @@ body {
 #cssmenu.align-center ul {
   text-align: center;
 }
-#cssmenu ul li a {
-  color: #E1F5A9;
-  text-decoration: none;
-  display: block;
-  padding: 15px 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 14px;
-  position: relative;
-  -webkit-transition: color .25s;
-  -moz-transition: color .25s;
-  -ms-transition: color .25s;
-  -o-transition: color .25s;
-  transition: color .25s;
-}
+    #cssmenu ul li a {
+        color: #E1F5A9;
+        text-decoration: none;
+        display: block;
+        padding: 15px 25px;
+        font-family: Times, "Times New Roman", Georgia, serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        position: relative;
+        -webkit-transition: color .25s;
+        -moz-transition: color .25s;
+        -ms-transition: color .25s;
+        -o-transition: color .25s;
+        transition: color .25s;
+    }
 #cssmenu ul li a:hover {
   color: white;
 }
