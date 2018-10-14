@@ -25,9 +25,9 @@ body {
 #main_header {
     padding: 15px;
     border: 1px solid #999999;
-    background: #CAEA7F ;
     text-align: center;
-    color: black;
+    color: #385F38;
+    background: #E1F5A9;
  
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 #main_menu {
-    background: #CAEA7F ;
+    background:  #E1F5A9;
     padding: 5px 15px;
   text-align: center;
 }
@@ -64,7 +64,7 @@ body {
     margin: 20px 0px;
     padding: 20px;
     text-color: green;
-    background: #CAEA7F;
+    background: #E1F5A9;
 }
 
 #main_footer {
@@ -75,7 +75,7 @@ body {
 }
 
 article {
-    background: #CAEA7F;
+    background: #E1F5A9;
     border: 1px solid black;
     padding: 20px;
     margin-bottom: 15px;
