@@ -6,23 +6,34 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup {
 body {
     text-align: center;
     height: 100%;
+    background-color: #FDFBC5;
+    font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    color: green;
+    line-height: 1;
 }
 
 #wrapper {
     width: 960px;
     margin: 15px auto;
     text-align: left;
+   
 }
 
 #main_header {
     padding: 15px;
     border: 1px solid #999999;
-    background: #FFFFFF;
+    background: #CAEA7F ;
+    text-align: center;
+ 
 }
 
 #main_menu {
-    background: #cccccc;
+    background: #CAEA7F ;
     padding: 5px 15px;
+  text-align: center;
 }
 
 #main_menu li {
@@ -36,6 +47,7 @@ body {
     float: left;
     width: 660px;
     margin: 20px;
+   
 }
 
 #main_aside {
@@ -43,7 +55,8 @@ body {
     width: 220px;
     margin: 20px 0px;
     padding: 20px;
-    background: #CCCCCC;
+    text-color: green;
+    background: #CAEA7F;
 }
 
 #main_footer {
@@ -54,8 +67,8 @@ body {
 }
 
 article {
-    background: #FFFBCC;
-    border: 1px solid #999999;
+    background: #CAEA7F;
+    border: 1px solid black;
     padding: 20px;
     margin-bottom: 15px;
 }
