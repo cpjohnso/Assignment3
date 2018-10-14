@@ -1,207 +1,78 @@
-/**
-Sample css code
-*/
-/* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
-html {
-  height: 100%;
-}
-
-/*Set background image*/
-.container {
-  background-image: url('https://doc-10-ao-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/r085o9ungppbiokopob2sfbekae4uqbb/1537920000000/14802840322886517493/*/110cT8sl-pOiHGgj9yToPkAqAzrr-RNfb');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-
-/* Position text in the middle */
-.middle {
-  position: absolute;
-  color: beige;
-  top: 70%;
-  left: 39%;
-  text-align: center;
-  font-size: 25px;
-}
-
-/*Set circle in unordered list*/
-.middle ul {
-  list-style-type: circle;
-}
-
-/*Set text inside li tag to left*/
-.middle ul li {
-  text-align: left !important;
-}
-
-/*Set text color for a tag inside middle class and ul>li element*/
-.middle ul li a {
-  color: beige;
-}
-
-/*Change text color and decoration for a tags inside middle class and ul>li element*/
-.middle ul li a:hover {
-  color: red;
-  text-decoration: none;
+﻿
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+    display: block;
 }
 
 body {
-    margin: 80px 80px 100px 100px;
-    background-color: #E1F5A9;
+    text-align: center;
+    height: 100%;
+    background-color: #FDFBC5;
     font-family: Times, "Times New Roman", Georgia, serif;
     font-size: 1em;
     font-style: normal;
     font-weight: normal;
-    color: #0B3B0B;
+    color: green;
     line-height: 1;
 }
 
-#fixedheader {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    color: #E1F5A9;
-    background: #0B3B0B;
-    padding: 10px;
+#wrapper {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+   
 }
 
-
-
-#content {
-    margin-top: 100px;
-    margin: 20px;
-    padding: 20px;
-    width: 95%;
-    height: 90%;
-    text-align: justify;
-    float: left;
+#main_header {
+    padding: 15px;
+    border: 1px solid #999999;
+    background: #CAEA7F ;
+    text-align: center;
+ 
 }
 
-#line_sep {
-    display: block;
-    margin-top: 5px;
-    border-bottom: 5px solid #0B3B0B;
-}
-
-#cssmenu {
-  background: #0B3B0B;
-  width: auto;
-}
-#cssmenu ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  display: block;
-  zoom: 1;
-}
-#cssmenu ul:after {
-  content: " ";
-  display: block;
-  font-size: 0;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-#cssmenu ul li {
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-#cssmenu.align-right ul li {
-  float: right;
-}
-#cssmenu.align-center ul {
+#main_menu {
+    background: #CAEA7F ;
+    padding: 5px 15px;
   text-align: center;
 }
-    #cssmenu ul li a {
-        color: #E1F5A9;
-        text-decoration: none;
-        display: block;
-        padding: 15px 25px;
-        font-family: Times, "Times New Roman", Georgia, serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 14px;
-        position: relative;
-        -webkit-transition: color .25s;
-        -moz-transition: color .25s;
-        -ms-transition: color .25s;
-        -o-transition: color .25s;
-        transition: color .25s;
-    }
-#cssmenu ul li a:hover {
-  color: white;
-}
-#cssmenu ul li a:hover:before {
-  width: 100%;
-}
-#cssmenu ul li a:after {
-  content: "";
-  display: block;
-  position: absolute;
-  right: -3px;
-  top: 19px;
-  height: 6px;
-  width: 6px;
-  background: #E1F5A9;
-  opacity: .5;
-}
-#cssmenu ul li a:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 3px;
-  width: 0;
-  background: #333333;
-  -webkit-transition: width .25s;
-  -moz-transition: width .25s;
-  -ms-transition: width .25s;
-  -o-transition: width .25s;
-  transition: width .25s;
-}
-#cssmenu ul li.last > a:after,
-#cssmenu ul li:last-child > a:after {
-  display: none;
-}
-#cssmenu ul li.active a {
-  color: #E1F5A9;
-}
-#cssmenu ul li.active a:before {
-  width: 100%;
-}
-#cssmenu.align-right li.last > a:after,
-#cssmenu.align-right li:last-child > a:after {
-  display: block;
-}
-#cssmenu.align-right li:first-child a:after {
-  display: none;
-}
-@media screen and (max-width: 768px) {
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom: 1px solid #fb998c;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
 
+#main_menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+}
 
+#main_section {
+    float: left;
+    width: 660px;
+    margin: 20px;
+   
+}
+
+#main_aside {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    text-color: green;
+    background: #CAEA7F;
+}
+
+#main_footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+article {
+    background: #CAEA7F;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+figcaption {
+    font: italic 14px verdana, sans-serif;
+}
